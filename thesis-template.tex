@@ -1,0 +1,88 @@
+\documentclass[ams]{U-AizuGT}
+\usepackage{pifont}
+\usepackage{graphicx}
+\usepackage{cite}
+
+% ハイフネーション禁止
+\hyphenpenalty=10000\relax
+\exhyphenpenalty=10000\relax
+\sloppy
+
+\bibliographystyle{ieicetr}
+
+\author{Taro Aizu}
+\studentid{s1770777}
+\supervisor{Prof. Jiro Fukushima}
+\title{The Template for Graduation Thesis}
+\begin{document}
+	\maketitle
+	\begin{abstract}
+		The abstract of your thesis must be written here.
+	\end{abstract}
+	
+	\section{Introduction}
+		This document is a template for Tex versions.
+	
+	\section{Method}
+		\subsection{Graduation Thesis}
+			Graduation Theses" is a required course offered for fourth-year students on a year-round basis to which eight units of academic credits are allotted. This is the only required course and offered on a year-round basis at the University. This is the most important course which integrates what students have studied at the University for four years.
+			
+			Students must conduct their research on their own initiative to complete their graduation theses under thorough supervision based on individualized instruction given by relevant supervisors.
+			
+			The University has obliged all students to write their graduation thesis in English since the University was established, and this is one of the reasons that individuals graduated from the University have gained a high reputation from various quarters.
+			
+			Certain requirements must be fulfilled in order to initiate a graduation thesis, and due procedures must be taken for acquisition of the academic credits for this course.
+			
+		\subsection{Review of Graduation Thesis}
+			Graduation theses shall be reviewed by a relevant supervisor and one referee, two referees in total.
+			
+			Ratio between weights of evaluation conducted by the supervisor and the referee is two to one.
+			
+			Comprehensive evaluations will be conducted, taking into consideration the items below.
+			
+			\begin{itemize}
+				\item The challenge level of a graduation thesis theme
+				\item Quality of a thesis written in English, which is regarded as an official record, including its content and expressions. 
+				\item Student's attitude and persuasiveness during the presentation
+				\item Precision of responses to questions
+				\item Student' s enthusiasm and stability while they have been working on the graduation thesis
+			\end{itemize}
+			
+		\subsection{Submission of Completed Theses}
+			A graduation thesis must be written in four to six pages of A4-sized paper. 
+			
+			It is regarded as appropriate that papers in the field of science and engineering should be briefly compiled in the volume of four to six pages like this.
+			
+			Printed theses are kept in the University Library, and electronic versions are stored in the particular directory, so that graduation theses can be read at any time.
+			
+	\section{Examples}
+		\subsection{Figure and Table}
+			If you want to use figures and tables to explain your thesis, paste them in proper size. Each figures and tables must have a title and number (e.g. Figure \ref{fig:logo} and Table \ref{tb:table}).
+			
+			\begin{figure}[htb]
+				\centering
+				\includegraphics[width=6cm]{img/Naranice.png}
+				\caption{Logo}
+				\label{fig:logo} % captionのあとにlabelを置く
+			\end{figure}
+			
+			\begin{table}[htb]
+				\caption{Example of Table}
+				\label{tb:table}
+				\begin{tabular}{|c|c|c|} \hline
+					ID & Name & Detail \\ \hline \hline
+					1 & One & 1, One, Un, Eins, Uno \\ \hline
+					2 & Two & 2, Two, Deux, Zwei, Due \\ \hline
+					3 & Three & 3, Three, Trois, Drei, Tre \\ \hline
+				\end{tabular}
+			\end{table}
+			
+		\subsection{References}
+			All references must be numbered and citations of reference in body text should be identified by the number in square brackets (e.g. \cite{graduation-thesis} \cite{fukushima-thesis} \cite{nara-nice}).
+
+	\section*{Acknowledgement}
+		This section is not necessarily. If you have gratitude for someone and want to write acknowledgement, this section should be provided.
+		
+	\bibliography{biblist}
+
+\end{document} 
