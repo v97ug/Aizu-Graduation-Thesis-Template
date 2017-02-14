@@ -13,4 +13,4 @@ scp 学籍番号@sshgate.u-aizu.ac.jp:/usr/local/texlive-2016/texmf-local/tex/ai
 
 ## 参考
 bibliographystyleは、ieicetrを採用しました。こちらからダウンロード致しました。
-[http://www.ieice.org/ftp/](http://www.ieice.org/ftp/　"http://www.ieice.org/ftp/")
+[http://www.ieice.org/ftp/](http://www.ieice.org/ftp/)
