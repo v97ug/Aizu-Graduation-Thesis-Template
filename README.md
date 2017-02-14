@@ -16,5 +16,5 @@ https://github.com/v97ug/Aizu-Graduation-Thesis-Template/blob/master/thesis-temp
 
 ## 参考
 - bibliographystyleは、ieicetrを採用しました。こちらからダウンロード致しました。[http://www.ieice.org/ftp/](http://www.ieice.org/ftp/)
-- 文章は、[http://web-int.u-aizu.ac.jp/official/students/sad/stsa14_j.html](http://web-int.u-aizu.ac.jp/official/students/sad/stsa14_j.html)のdocファイルの文章を参考にしました。
+- 文章は、[http://web-int.u-aizu.ac.jp/official/students/sad/stsa14_j.html](http://web-int.u-aizu.ac.jp/official/students/sad/stsa14_j.html)のdocファイルの文章を参考にしました。（学内限定）
 - ロゴは、[https://nara-sutekidai.nijitei.com/](https://nara-sutekidai.nijitei.com/)のものです。
