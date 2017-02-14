@@ -11,6 +11,10 @@ scp 学籍番号@sshgate.u-aizu.ac.jp:/usr/local/texlive-2016/texmf-local/tex/ai
 ```
 後は、platexでビルドするなり、IDEを使うなりしてください。個人的におすすめなのは、Tex Studioです。
 
+## 出来上がったPDFファイル
+https://github.com/v97ug/Aizu-Graduation-Thesis-Template/blob/master/thesis-template.pdf
+
 ## 参考
-bibliographystyleは、ieicetrを採用しました。こちらからダウンロード致しました。
-[http://www.ieice.org/ftp/](http://www.ieice.org/ftp/)
+- bibliographystyleは、ieicetrを採用しました。こちらからダウンロード致しました。[http://www.ieice.org/ftp/](http://www.ieice.org/ftp/)
+- 文章は、http://web-int.u-aizu.ac.jp/official/students/sad/stsa14_j.htmlのdocファイルの文章を参考にしました。
+- ロゴは、https://nara-sutekidai.nijitei.com/のものです。
